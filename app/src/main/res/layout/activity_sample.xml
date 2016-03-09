@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+    >
+
+    <TextView
+        android:id="@+id/schedulerTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scheduler_title"
+        style="@style/TextAppearance.AppCompat.Title"
+        />
+    <RadioGroup
+        android:id="@+id/schedulerRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/schedulerTitleTextView"
+        android:padding="8dp"
+        >
+        <RadioButton
+            android:id="@+id/jobSchedulerRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/job_scheduler"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/androidJobRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_job"
+            />
+    </RadioGroup>
+
+    <android.support.v7.widget.ButtonBarLayout
+        android:id="@+id/scheduleBtnGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/schedulerRadioGroup"
+        android:padding="8dp"
+        >
+        <Button
+            android:id="@+id/scheduleOnceBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule_once"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/scheduleRepeatBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule_repeating"
+            android:layout_weight="1"
+            />
+    </android.support.v7.widget.ButtonBarLayout>
+    <android.support.v7.widget.ButtonBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scheduleBtnGroup"
+        android:padding="8dp"
+        >
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_weight="1"
+            />
+    </android.support.v7.widget.ButtonBarLayout>
+
+</RelativeLayout>

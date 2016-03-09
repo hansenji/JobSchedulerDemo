@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JobScheduler</string>
+    <string name="job_scheduler">JobScheduler</string>
+    <string name="android_job">Android-Job</string>
+    <string name="scheduler_title">Scheduler</string>
+    <string name="schedule_once">Schedule Once</string>
+    <string name="schedule_repeating">Schedule Repeating</string>
+    <string name="cancel">Cancel</string>
+</resources>

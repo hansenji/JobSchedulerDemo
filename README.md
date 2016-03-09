@@ -1,2 +1,2 @@
 # JobSchedulerDemo
-JobScheduler/Android-Job Demo
+Demo for JobScheduler and Android-Job
