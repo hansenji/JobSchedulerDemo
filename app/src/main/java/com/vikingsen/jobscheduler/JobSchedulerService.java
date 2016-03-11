@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
 public class JobSchedulerService extends JobService {
 
-    private static final String TAG = "JobSchedulerService";
+    private static final String TAG = "JOBSchedulerService";
 
     private Map<Integer, JobTask> jobMap = new LinkedHashMap<>();
 

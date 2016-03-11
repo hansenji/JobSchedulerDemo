@@ -8,7 +8,7 @@ import com.evernote.android.job.Job;
 import java.util.concurrent.TimeUnit;
 
 public class AndroidJob extends Job {
-    public static final String TAG = "AndroidJob";
+    public static final String TAG = "AndroidJOB";
 
     @NonNull
     @Override

@@ -11,6 +11,5 @@ public class App extends Application {
         super.onCreate();
         JobManager jobManager = JobManager.create(this);
         jobManager.addJobCreator(new AndroidJobCreator());
-        jobManager.setVerbose(true);
     }
 }

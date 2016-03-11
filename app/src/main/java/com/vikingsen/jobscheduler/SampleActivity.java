@@ -94,7 +94,7 @@ public class SampleActivity extends Activity implements View.OnClickListener {
     }
 
     private void scheduleOnce() {
-        Toast.makeText(this, "ONCE: " + scheduler, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "JOB SCHEDULED ONCE: " + scheduler, Toast.LENGTH_SHORT).show();
         switch (scheduler) {
             case JOB_SCHEDULER:
                 scheduleOnceJobScheduler();
@@ -130,7 +130,7 @@ public class SampleActivity extends Activity implements View.OnClickListener {
     }
 
     private void scheduleRepeating() {
-        Toast.makeText(this, "REPEAT: " + scheduler, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "JOB SCHEDULED REPEAT: " + scheduler, Toast.LENGTH_SHORT).show();
         switch (scheduler) {
             case JOB_SCHEDULER:
                 scheduleRepeatingJobScheduler();
